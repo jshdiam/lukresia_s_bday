@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff7f8;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header Section */
+.header-container {
+    width: 100%;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto; /* Adjusts height dynamically */
+    aspect-ratio: 2 / 1; /* Maintains your image's 10:5 ratio */
+    object-fit: contain; /* Ensures full visibility */
+    border-radius: 10px;
+}
+
+/* Navigation Menu */
+.navbar {
+    background-color: #ff69b4;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.navbar ul li a:hover {
+    background-color: #ff1493;
+}

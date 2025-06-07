@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blow the Candle 🎂</title>
+    <link rel="stylesheet" href="bday.css">
+</head>
+<body>
+
+    <h1>🎂 Blow the Candle</h1>
+    <p>Click the candle below to blow it out!</p>
+    <img src="candle.gif" id="candle" onclick="blowCandle()" alt="Candle">
+    
+    <script>
+        function blowCandle() {
+            document.getElementById("candle").src = "candle-out.png";  
+            alert("Make a wish, Babi! 💕");
+        }
+    </script>
+
+</body>
+</html>
